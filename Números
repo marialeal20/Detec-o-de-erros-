@@ -1,0 +1,10 @@
+repeticao = True
+while (repeticao):
+    x = input("Escreva um número para comparar")
+    y = input("Escreva um segundo número para comparar")
+
+    soma = x - y
+    print("Soma entre os dois números é:", soma)
+    if x == y:
+        print("x e y são iguais")
+        repeticao = False
